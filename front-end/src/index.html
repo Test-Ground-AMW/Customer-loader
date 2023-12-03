@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-Sockets in Action</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    
+    <script type="module" src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="module" src="js/main.js"></script>
+</head>
+<body>
+    <header class="p-2 text-center border-bottom">
+        <h3 class="m-0">Web Sockets in Action</h3>
+        <input id="txt-search" class="mt-2 text-center w-75" type="text" placeholder="Enter something to search">
+    </header>
+    <main class="p-2">
+        <table id="tbl-customers" class="table table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>FIRST NAME</th>
+                    <th>LAST NAME</th>
+                    <th>CONTACT</th>
+                    <th>COUNTRY</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="5">
+                        We're sorry. We cannot find any matches for your search term.
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+</body>
+</html>
